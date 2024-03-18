@@ -1,6 +1,7 @@
 import Counter from './Counter'
 import Bigbutton from './Bigbutton'
 import LikeButton from './LikeButton'
+import LudoBoard from './LudoBoard'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
       <Bigbutton/>
   <LikeButton/>
+  <LudoBoard/>
     </>
   )
 }

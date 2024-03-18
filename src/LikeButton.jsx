@@ -7,7 +7,7 @@ import { useState } from 'react'
 const LikeButton = () => {
 
   let [isLiked,setisLiked]=useState(false);
-console.log("component is re-rendered ");
+// console.log("component is re-rendered ");
   function toggleLike(){
     setisLiked(!isLiked);
     
